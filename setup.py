@@ -27,7 +27,6 @@ setup(
         install_requires=["requests>=2.26.0,<3",],
     
         keywords=['Bundestag','API'],
-        python_requires>="3.7",
         classifiers= [
             "Development Status :: 3 - Alpha",
             "Intended Audience :: Education",
