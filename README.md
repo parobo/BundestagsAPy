@@ -2,13 +2,13 @@
 ## Installation
 The easiest way to install the latest stable version from PyPI is by using pip:
 
-```pip install bundestagsapy
-
+```
+pip install bundestagsapy
 ```
 Alternatively, install directly from the GitHub repository:
 
-```pip install git+https://github.com/parobo/BundestagsAPy
-
+```
+pip install git+https://github.com/parobo/BundestagsAPy
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ api_key='XXXXXXXXXXXXXXX'
 client = BundestagsAPy.Client(api_key)
 ```
 ### Endpoints
-The client provides access to all available documents through methods named after the endpoints (`'bt_{endpoint}'`). E.g.
+The client provides access to all available documents through methods named after the endpoints (`bt_{endpoint}`). E.g.
 ```Python
 client.bt_aktivitaet(max_results=50,id,start_date,end_date,drucksache,plenaeprotokoll,zuordnung)
 ```
