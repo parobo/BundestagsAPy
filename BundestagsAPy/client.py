@@ -24,7 +24,6 @@ class Client:
             user_agent = (
                 f"Python/{python_version()} "
                 f"Requests/{requests.__version__} "
-                f"BundestagsAPy/{BundestagsAPy.__version__}"
                 )
         self.user_agent=user_agent
         self.session = requests.Session()
