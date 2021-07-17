@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import re
 
-VERSION_FILE = "BundetagsAPy/__init__.py"
+VERSION_FILE = "BundestagsAPy/__init__.py"
 with open(VERSION_FILE) as version_file:
     match = re.search(r"^__version__ = ['\"]([^'\"]*)['\"]",
                       version_file.read(), re.MULTILINE)
@@ -16,7 +16,7 @@ with open("README.md") as readme_file:
 
 # Setting up
 setup(
-        name="BundetagsAPy", 
+        name="BundestagsAPy", 
         version=version,
         author="Paul Bose",
         author_email="<bose@ese.eur.nl>",
