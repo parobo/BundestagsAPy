@@ -32,13 +32,13 @@ The available endpoint are:
 - drucksache-text: `bt_drucksache_text()`
 - person: `bt_person()`
 - plenarprotokoll: `bt_plenarprotokoll()`
-- plenarprotokoll-text: `bt_plenarprotokoll_text`
-- vorgang: `bt_vorgang`
-- vorgangsposition: `bt_vorgangsposition`
+- plenarprotokoll-text: `bt_plenarprotokoll_text()`
+- vorgang: `bt_vorgang()`
+- vorgangsposition: `bt_vorgangsposition()`
 
 All methods accept `max_results` as input. It takes either an interger as value, in which case the method returns the first `max_results` supplied by the API, or `False`, in which case all available documents are returned.
 
-`id` can either be an integer (for single document returned) or a list (for multiple).
+`id` can either be an integer (for single document returned) or a list of integers (for multiple).
 
 see https://dip.bundestag.de/documents/informationsblatt_zur_dip_api_v01.pdf for details on other acceptable parameters for each endpoint.
 
