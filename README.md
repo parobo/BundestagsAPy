@@ -43,7 +43,7 @@ All methods accept `max_results` as input. It takes either an interger as value,
 see https://dip.bundestag.de/documents/informationsblatt_zur_dip_api.pdf for details on other acceptable parameters for each endpoint.
 
 ### Results
-The results from each request to an endpoint is an object named after the document requested if a single document was requested. Each object has as its attributes all the available data named in the same way as documented on https://dip.bundestag.de/documents/informationsblatt_zur_dip_api_v01.pdf.
+The results from each request to an endpoint is an object named after the document requested if a single document was requested. Each object has as its attributes all the available data named in the same way as documented on https://dip.bundestag.de/documents/informationsblatt_zur_dip_api.pdf.
 
 If multiple documents were requested, BundestagsAPy returns a list of the documents. E.g.
 
