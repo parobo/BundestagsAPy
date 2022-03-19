@@ -40,7 +40,7 @@ All methods accept `max_results` as input. It takes either an interger as value,
 
 `id` can either be an integer (for single document returned) or a list of integers (for multiple).
 
-see https://dip.bundestag.de/documents/informationsblatt_zur_dip_api_v01.pdf for details on other acceptable parameters for each endpoint.
+see https://dip.bundestag.de/documents/informationsblatt_zur_dip_api.pdf for details on other acceptable parameters for each endpoint.
 
 ### Results
 The results from each request to an endpoint is an object named after the document requested if a single document was requested. Each object has as its attributes all the available data named in the same way as documented on https://dip.bundestag.de/documents/informationsblatt_zur_dip_api_v01.pdf.
