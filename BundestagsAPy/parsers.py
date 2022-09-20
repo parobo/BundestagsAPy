@@ -22,7 +22,7 @@ class Parser:
         else:
             result = model.parse(json)   
         if cursor:
-            if numFound:
+            if numFound or numFound==0:
                 return result, cursor, numFound
             else:
                 return result, cursor
