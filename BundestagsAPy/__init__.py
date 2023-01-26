@@ -4,7 +4,7 @@
 BundetagsAPy Bundestags DIP API Library
 """
 
-__version__ = '1.2-alpha'
+__version__ = '1.3-alpha'
 __author__ = 'Paul Bose'
 __license__ = 'MIT'
 

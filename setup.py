@@ -24,7 +24,7 @@ setup(
         long_description=long_description,
         long_description_content_type="text/markdown",
         packages=find_packages(),
-        install_requires=["requests>=2.26.0,<3",],
+        install_requires=["requests>=2.26.0,<3",'dateutil>=2.8.2'],
     
         keywords=['Bundestag','API'],
         classifiers= [
